@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: radial-gradient(circle at top, #FFD85A 0%, #7A5F12 40%, #1A1203 100%);
+    color: #fff9e6;
+    padding: 12px;
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #ffe58a;
+    text-shadow: 0 0 10px rgba(255, 228, 141, 0.7);
+}
+
+.subtitle {
+    margin: 4px 0 0;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 18px;
+    padding: 16px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Разделы */
+.sections {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-card {
+    background: rgba(255, 245, 200, 0.15);
+    border: 1px solid rgba(255, 230, 150, 0.4);
+    border-radius: 14px;
+    padding: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.section-card:hover {
+    background: rgba(255, 245, 200, 0.25);
+    transform: translateY(-2px);
+}
+
+.section-title {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffe9ab;
+}
+
+.section-desc {
+    margin: 4px 0 0;
+    font-size: 13px;
+    opacity: 0.85;
+}
+
+/* Материалы */
+.hidden {
+    display: none;
+}
+
+.back-btn {
+    margin-bottom: 10px;
+    background: none;
+    border: 1px solid #ffe9ab;
+    color: #ffe9ab;
+    padding: 6px 12px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.back-btn:hover {
+    background: rgba(255, 233, 171, 0.2);
+}
+
+.materials-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.material-item {
+    background: rgba(255, 240, 180, 0.1);
+    border: 1px solid rgba(255, 230, 150, 0.35);
+    padding: 10px 12px;
+    border-radius: 14px;
+}
+
+.material-title {
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.material-type {
+    font-size: 12px;
+    opacity: 0.8;
+    margin-top: 2px;
+}
