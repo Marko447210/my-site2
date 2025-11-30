@@ -2,7 +2,7 @@ const tg = window.Telegram.WebApp;
 tg.expand();
 
 // Адрес твоего API (локальный вариант A)
-const API_BASE = "https://unabnegating-overfaithfully-emogene.ngrok-free.dev";
+const API_BASE = "https://cold-fans-occur.loca.lt";
 const useMock = false;
 
 // Элементы страницы
